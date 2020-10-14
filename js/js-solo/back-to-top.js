@@ -3,9 +3,9 @@ var amountScrolled = 480;
 var windowsHeight = $(window).height();
 $(window).scroll(function() {
     if ($(this).scrollTop() > amountScrolled) {
-        $(".back-top-btn").addClass("is-show");
+        $(".back-top-btn").addClass("is-show  animate-rubberBand");
     } else {
-        $(".back-top-btn").removeClass("is-show  is-actived");
+        $(".back-top-btn").removeClass("is-show  is-actived  animate-rubberBand");
     }
     console.log(windowsHeight);
 });

@@ -70,6 +70,9 @@ $section-body-padding: 20vh 6vw;
 $section-body-padding-small: 10vh 0;
 $section-body-top-small-padding: 5vh;
 $section-footer-background-color: #4e4e4e !important;
+$section-list-footer-background-color: lighten(#4e4e4e, 36%) !important;
+$section-list-footer-padding: 5vh 10vw;
+$section-list-footer-padding-small: 5vh 2vw;
 $section-footer-span-padding: $basis-spacing;
 $section-footer-span-font-size: 16px;
 $section-footer-span-color: $GRAY;
@@ -82,6 +85,10 @@ $section-title-font-color: $BLUE;
 $section-title-font-white-color: #ccc;
 $section-title-text-shadow: 3px 3px 2px rgba(0,0,0,0.1);
 $section-text-margin: $basis-spacing;
+
+/*section list imagen*/
+$list-image-width: 120px;
+$list-image-height: 96px;
 
 /*parallax*/
 $section-parallax-height: 400px;
@@ -225,7 +232,9 @@ $card-shadow-hover: 0 4px 3px rgba(0,0,0,0.1);
 $card-transforme-effect-hover: translate3d(0, -4px, 0);
 $card-img-height: 30%;
 $card-img-min-height: 280px;
+$card-icon-min-height: 120px;
 $card-img-background-color: $WHITE;
+$card-icon-background-color: $WHITE;
 $card-title-font-family: $ff-montserrat-semibold;
 $card-title-font-color: darken($ORANGE, 10%);
 $card-title-font-size: 14px;

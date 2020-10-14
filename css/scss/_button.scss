@@ -73,6 +73,9 @@
         bottom: $back-to-top-position-bottom-shown;
         visibility: visible;
         opacity: 0.8;
+        animation-delay: 0.8s;
+        animation-duration: 0.8s;
+        animation-timing-function: ease;
     }
 }
 

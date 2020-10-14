@@ -3,9 +3,9 @@ var amountScrolled = 480;
 var windowsHeight = $(window).height();
 $(window).scroll(function() {
     if ($(this).scrollTop() > amountScrolled) {
-        $(".back-top-btn").addClass("is-show");
+        $(".back-top-btn").addClass("is-show  animate-rubberBand");
     } else {
-        $(".back-top-btn").removeClass("is-show  is-actived");
+        $(".back-top-btn").removeClass("is-show  is-actived  animate-rubberBand");
     }
     console.log(windowsHeight);
 });
@@ -166,20 +166,20 @@ $(document).ready(function() {
     var dataCard = [
         {
             dataTitle: "Illustrations",
-            dataContent: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, consequatur.",
+            dataContent: "One of my favorite hobbies!<br> I started making vectorial illustrations, with personal style, that can be used for communication.<br>Take a look at what I've done so far.",
             dataImg: "background-image: url(images/png/marti-pulgas.png)"
         }
     ];
 
     var dataModal = [
         {
-            dataTitle: "Lorem ipsum",
-            dataContent: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit aut rem quod unde deserunt id provident asperiores tempore, modi totam, vel placeat tempora dolor voluptatem! Ipsa nemo, modi vero excepturi!",
+            dataTitle: "Eutrophication",
+            dataContent: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit aut rem quod unde deserunt id provident asperiores tempore, modi totam, vel placeat tempora dolor voluptatem! Ipsa nemo, modi vero excepturi!<br><a href='https://www.bund.net/fileadmin/user_upload_bund/publikationen/meere/meere_eutrophierung_flyer.pdf' target='_blank'>download the flyer</a>",
             dataImg: "background-image: url(images/png/eutrophierung_BUND_2016-01.png);",
             dataThumb: "background-image: url(images/png/eutrophierung_mascots_BUND_2016-02.png);"
         },
         {
-            dataTitle: "Lorem ipsum",
+            dataTitle: "Underwater Noise",
             dataContent: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, consequatur.",
             dataImg: "background-image: url(images/png/unterwasserlaerm_BUND_2020-01.png); background-position: left",
             dataThumb: "background-image: url(images/png/unterwasserlaerm_BUND_2020-02.png);"
